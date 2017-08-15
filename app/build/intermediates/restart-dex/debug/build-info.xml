@@ -6,7 +6,7 @@
     density="mdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1502793382756"
+    timestamp="1502793853213"
     token="-8333767604113888938"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1502793382756"
+        timestamp="1502793853213"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Administrator\Downloads\com_system_ui1\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
