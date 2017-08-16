@@ -65,21 +65,24 @@
 # view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
 -keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
 
-# view AndroidManifest.xml #generated:44
--keep class com.system.ui.BaseApplication { <init>(...); }
-
-# view AndroidManifest.xml #generated:50
--keep class com.system.ui.MainActivity { <init>(...); }
-
-# view AndroidManifest.xml #generated:65
--keep class com.system.ui.receiver.BootCompleteReceiver { <init>(...); }
-
-# view AndroidManifest.xml #generated:70
--keep class com.system.ui.receiver.NetworkChangeReceiver { <init>(...); }
-
-# view AndroidManifest.xml #generated:60
--keep class com.system.ui.service.LocalService { <init>(...); }
+# view AndroidManifest.xml #generated:85
+-keep class com.baidu.location.f { <init>(...); }
 
 # view AndroidManifest.xml #generated:61
+-keep class com.system.ui.BaseApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.system.ui.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.system.ui.receiver.BootCompleteReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.system.ui.receiver.NetworkChangeReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.system.ui.service.LocalService { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
 -keep class com.system.ui.service.RemoteService { <init>(...); }
 

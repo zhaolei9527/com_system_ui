@@ -1,4 +1,4 @@
-#Tue Aug 15 14:34:43 CST 2017
+#Wed Aug 16 18:05:27 CST 2017
 base.0=C\:\\Users\\Administrator\\Downloads\\com_system_ui1\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\Administrator\\Downloads\\com_system_ui1\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

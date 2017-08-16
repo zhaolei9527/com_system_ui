@@ -1974,6 +1974,25 @@ android.support.v7.widget.ViewStubCompat: void setLayoutInflater(android.view.La
 android.support.v7.widget.ViewStubCompat: android.view.LayoutInflater getLayoutInflater()
 android.support.v7.widget.ViewStubCompat: void setVisibility(int)
 android.support.v7.widget.ViewStubCompat: void setOnInflateListener(android.support.v7.widget.ViewStubCompat$OnInflateListener)
+com.baidu.location.BDLocation: android.os.Parcelable$Creator CREATOR
+com.baidu.location.Jni
+com.baidu.location.Jni: java.lang.String a(byte[],int)
+com.baidu.location.Jni: java.lang.String b(double,double,int,int)
+com.baidu.location.Jni: java.lang.String c(byte[],int)
+com.baidu.location.Jni: java.lang.String ib(byte[],byte[])
+com.baidu.location.Jni: java.lang.String sky()
+com.baidu.location.Jni: java.lang.String ee(java.lang.String,int)
+com.baidu.location.Jni: java.lang.String g(byte[])
+com.baidu.location.Jni: void f(byte[],byte[])
+com.baidu.location.Jni: void uninstall(java.lang.String)
+com.baidu.location.Jni: long murmur(java.lang.String)
+com.baidu.location.Jni: java.lang.String encodeNotLimit(java.lang.String,int)
+com.baidu.location.Jni: double gsr(float,double,double)
+com.baidu.location.LocationClientOption$LocationMode: com.baidu.location.LocationClientOption$LocationMode[] values()
+com.baidu.location.LocationClientOption$LocationMode: com.baidu.location.LocationClientOption$LocationMode valueOf(java.lang.String)
+com.baidu.location.Poi: android.os.Parcelable$Creator CREATOR
+com.baidu.location.f
+com.baidu.location.f: f()
 com.system.ui.BaseApplication
 com.system.ui.BaseApplication: BaseApplication()
 com.system.ui.MainActivity

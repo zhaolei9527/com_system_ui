@@ -300,7 +300,6 @@ public class LocalService extends Service {
         }
     }
 
-
     public void onReceiveServerMessage(String msg) {
         String log = String.format("收到服务器命令：%s", msg);
         Log.i("hyx", log);

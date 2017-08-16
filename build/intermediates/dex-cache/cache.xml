@@ -2,6 +2,24 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\Downloads\com_system_ui1\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="36e009368a0733119b7c2b353683d125ecf0afda">
+        <dex dex="C:\Users\Administrator\Downloads\com_system_ui1\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_496014c5dc6b810964f2d1b4d87c114dd86e325a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Downloads\com_system_ui1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc0e8fecee9c02dc0b81ec910c5922b8993c2f54">
+        <dex dex="C:\Users\Administrator\Downloads\com_system_ui1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bc0e4ba918432b6bf576d02f9d3a48c4096b1c59\classes.dex" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\Administrator\Downloads\com_system_ui1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
@@ -12,12 +30,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Downloads\com_system_ui1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Administrator\Downloads\com_system_ui1\app\libs\BaiduLBS_Android.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="978ca241784e60b26890aecd6fad923fc2622804">
-        <dex dex="C:\Users\Administrator\Downloads\com_system_ui1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bc0e4ba918432b6bf576d02f9d3a48c4096b1c59\classes.dex" />
+        sha1="36e009368a0733119b7c2b353683d125ecf0afda">
+        <dex dex="C:\Users\Administrator\Downloads\com_system_ui1\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_496014c5dc6b810964f2d1b4d87c114dd86e325a\classes.dex" />
     </item>
 
 </items>

@@ -4196,12 +4196,226 @@ android.support.v7.widget.ViewUtils:
     private static final java.lang.String TAG
     54:54:private ViewUtils()
     91:108:public static void makeOptionalFitsSystemWindows(android.view.View)
+com.baidu.lbsapi.auth.ErrorMessage:
+    ErrorMessage()
+com.baidu.lbsapi.auth.LBSAuthManager:
+    public static final int CODE_UNAUTHENTICATE
+    public static final int CODE_AUTHENTICATING
+    public static final int CODE_AUTHENTICATE_SUCC
+    public static final int CODE_INNER_ERROR
+    public static final int CODE_NETWORK_INVALID
+    public static final int CODE_NETWORK_FAILED
+    public static final int CODE_KEY_NOT_EXIST
+    public static final java.lang.String VERSION
+    public java.lang.String getKey()
+    public java.lang.String getCUID()
+com.baidu.location.Address$Builder:
+    private static final java.lang.String BEI_JING
+    private static final java.lang.String TIAN_JIN
+    private static final java.lang.String CHONG_QIN
+    private static final java.lang.String SHANG_HAI
+com.baidu.location.BDAbstractLocationListener
+com.baidu.location.BDLocation:
+    public static final int TypeNone
+    public static final int TypeGpsLocation
+    public static final int TypeCriteriaException
+    public static final int TypeNetWorkException
+    public static final int TypeOffLineLocation
+    public static final int TypeOffLineLocationFail
+    public static final int TypeOffLineLocationNetworkFail
+    public static final int TypeNetWorkLocation
+    public static final int TypeCacheLocation
+    public static final int TypeServerError
+    public static final int TypeServerDecryptError
+    public static final int TypeServerCheckKeyError
+    public static final int LOCATION_WHERE_UNKNOW
+    public static final int LOCATION_WHERE_IN_CN
+    public static final int LOCATION_WHERE_OUT_CN
+    public static final int USER_INDOOR_UNKNOW
+    public static final int USER_INDDOR_TRUE
+    public static final int USER_INDOOR_FALSE
+    public static final int INDOOR_LOCATION_NEARBY_SURPPORT_TRUE
+    public static final int INDOOR_LOCATION_SURPPORT_TRUE
+    public static final int INDOOR_LOCATION_SURPPORT_FALSE
+    public static final int INDOOR_LOCATION_SOURCE_UNKNOWN
+    public static final int INDOOR_LOCATION_SOURCE_WIFI
+    public static final int INDOOR_LOCATION_SOURCE_MAGNETIC
+    public static final int INDOOR_LOCATION_SOURCE_BLUETOOTH
+    public static final int INDOOR_LOCATION_SOURCE_SMALLCELLSTATION
+    public static final int INDOOR_NETWORK_STATE_HIGH
+    public static final int INDOOR_NETWORK_STATE_MIDDLE
+    public static final int INDOOR_NETWORK_STATE_LOW
+    public static final int OPERATORS_TYPE_UNKONW
+    public static final int OPERATORS_TYPE_MOBILE
+    public static final int OPERATORS_TYPE_UNICOM
+    public static final int OPERATORS_TYPE_TELECOMU
+    public static final int GPS_ACCURACY_GOOD
+    public static final int GPS_ACCURACY_MID
+    public static final int GPS_ACCURACY_BAD
+    public static final int GPS_ACCURACY_UNKNOWN
+    public static final java.lang.String BDLOCATION_GCJ02_TO_BD09
+    public static final java.lang.String BDLOCATION_GCJ02_TO_BD09LL
+    public static final java.lang.String BDLOCATION_BD09_TO_GCJ02
+    public static final java.lang.String BDLOCATION_BD09LL_TO_GCJ02
+    public static final java.lang.String BDLOCATION_WGS84_TO_GCJ02
+    public static final int GPS_RECTIFY_NONE
+    public static final int GPS_RECTIFY_INDOOR
+    public static final int GPS_RECTIFY_OUTDOOR
+    public boolean isCellChangeFlag()
+    public int getIndoorLocationSurpport()
+    public java.lang.String getIndoorLocationSurpportBuidlingName()
+    public java.lang.String getIndoorLocationSurpportBuidlingID()
+    public int getIndoorNetworkState()
+    public void setIndoorNetworkState(int)
+    public int getIndoorLocationSource()
+    public java.lang.String getIndoorSurpportPolygon()
+    public java.lang.String getLocationID()
+    public double getAltitude()
+    public float getSpeed()
+    public float getRadius()
+    public boolean hasAltitude()
+    public boolean hasSpeed()
+    public boolean hasRadius()
+    public java.lang.String getLocTypeDescription()
+    public int getSatelliteNumber()
+    public float getDerect()
+    public float getDirection()
+    public boolean hasSateNumber()
+    public java.lang.String getAddrStr()
+    public java.lang.String getProvince()
+    public java.lang.String getCity()
+    public java.lang.String getCityCode()
+    public java.lang.String getCountry()
+    public java.lang.String getCountryCode()
+    public java.lang.String getDistrict()
+    public java.lang.String getStreet()
+    public java.lang.String getStreetNumber()
+    public java.lang.String getFloor()
+    public void setFloor(java.lang.String)
+    public java.lang.String getBuildingID()
+    public void setBuildingID(java.lang.String)
+    public java.lang.String getBuildingName()
+    public void setBuildingName(java.lang.String)
+    public int isParkAvailable()
+    public void setParkAvailable(int)
+    public boolean isIndoorLocMode()
+    public void setIndoorLocMode(boolean)
+    public int getLocationWhere()
+    public int getGpsAccuracyStatus()
+    public void setGpsAccuracyStatus(int)
+    public java.lang.String getSemaAptag()
+    public void setNetworkLocationType(java.lang.String)
+    public int getGpsCheckStatus()
+    public java.lang.String getRetFields(java.lang.String)
+com.baidu.location.Jni:
+    public Jni()
+    private static native java.lang.String c(byte[],int)
+    private static native java.lang.String ib(byte[],byte[])
+    private static native java.lang.String sky()
+    private static native java.lang.String g(byte[])
+    private static native void f(byte[],byte[])
+    public static native void uninstall(java.lang.String)
+    public static java.lang.String decodeIBeacon(byte[],byte[])
+    public static void removeSoList(int,java.lang.String)
+    public static java.lang.String encode2(java.lang.String)
+    public static java.lang.String getSkyKey()
+    public static java.lang.String encodeOfflineLocationUpdateRequest(java.lang.String)
+    private static native java.lang.String encodeNotLimit(java.lang.String,int)
+    private static native double gsr(float,double,double)
+    public static double getGpsSwiftRadius(float,double,double)
+    public static void tr2(java.lang.String,java.lang.String)
+    public static java.lang.String gtr2(java.lang.String)
+com.baidu.location.LocationClient:
+    private static final java.lang.String TAG
+    private static final int MSG_START
+    private static final int MSG_STOP
+    private static final int MSG_SET_OPT
+    private static final int MSG_REQ_LOC
+    private static final int MSG_REG_LISTENER
+    private static final int MSG_UNREG_LISTENER
+    private static final int MSG_REQ_POI
+    private static final int MSG_REG_NOTIFY_LISTENER
+    private static final int MSG_RIGSTER_NOTIFY
+    private static final int MSG_REMOVE_NOTIFY
+    private static final int MSG_REQ_NOTIFY_LOC
+    private static final int MSG_REQ_OFFLINE_LOC
+    private static final int MIN_REQUEST_SPAN
+    private java.lang.String mKey
+    public static final int CONNECT_HOT_SPOT_TRUE
+    public static final int CONNECT_HOT_SPOT_FALSE
+    public static final int CONNECT_HOT_SPOT_UNKNOWN
+    public static final int LOC_DIAGNOSTIC_TYPE_BETTER_OPEN_GPS
+    public static final int LOC_DIAGNOSTIC_TYPE_BETTER_OPEN_WIFI
+    public static final int LOC_DIAGNOSTIC_TYPE_NEED_CHECK_NET
+    public static final int LOC_DIAGNOSTIC_TYPE_NEED_CHECK_LOC_PERMISSION
+    public static final int LOC_DIAGNOSTIC_TYPE_NEED_OPEN_PHONE_LOC_SWITCH
+    public static final int LOC_DIAGNOSTIC_TYPE_NEED_INSERT_SIMCARD_OR_OPEN_WIFI
+    public static final int LOC_DIAGNOSTIC_TYPE_NEED_CLOSE_FLYMODE
+    public static final int LOC_DIAGNOSTIC_TYPE_SERVER_FAIL
+    public static final int LOC_DIAGNOSTIC_TYPE_FAIL_UNKNOWN
+    public LocationClient(android.content.Context,com.baidu.location.LocationClientOption)
+    public com.baidu.location.LocationClientOption getLocOption()
+    public boolean updateLocation(android.location.Location)
+    public void requestNotifyLocation()
+    public int requestOfflineLocation()
+    public int requestLocation()
+    public boolean isStarted()
+    public com.baidu.location.BDLocation getLastKnownLocation()
+    public java.lang.String getVersion()
+    public void restart()
+    public boolean requestHotSpotState()
+    public void stop()
+    public void registerNotifyLocationListener(com.baidu.location.BDLocationListener)
+    public void unRegisterLocationListener(com.baidu.location.BDLocationListener)
+    public java.lang.String getAccessKey()
+    public static com.baidu.location.BDLocation getBDLocationInCoorType(com.baidu.location.BDLocation,java.lang.String)
+    static synthetic java.lang.Boolean access$802(com.baidu.location.LocationClient,java.lang.Boolean)
+com.baidu.location.LocationClientOption:
+    public static final int MIN_SCAN_SPAN
+    public static final int GpsFirst
+    public static final int NetWorkFirst
+    public static final int GpsOnly
+    public static final int LOC_SENSITIVITY_HIGHT
+    public static final int LOC_SENSITIVITY_MIDDLE
+    public static final int LOC_SENSITIVITY_LOW
+    public static final int MIN_AUTO_NOTIFY_INTERVAL
+    public void setAddrType(java.lang.String)
+    public void setWifiCacheTimeOut(int)
+    public boolean isOpenGps()
+    public boolean isLocationNotify()
+    public void setOpenAutoNotifyMode()
+    public void setOpenAutoNotifyMode(int,int,int)
+    int getAutoNotifyMaxInterval()
+    public int getAutoNotifyMinTimeInterval()
+    public int getAutoNotifyMinDistance()
+    float getAutoNotifyLocSensitivity()
+    public int getScanSpan()
+    public int getTimeOut()
+    public void setTimeOut(int)
+    public java.lang.String getProdName()
+    public void setProdName(java.lang.String)
+    public int getPriority()
+    public void setPriority(int)
+    public com.baidu.location.LocationClientOption$LocationMode getLocationMode()
+    public void setNeedDeviceDirect(boolean)
+    public java.lang.String getServiceName()
+    public void setServiceName(java.lang.String)
+    public void setIsNeedAltitude(boolean)
+    public void setSema(boolean,boolean,boolean)
+    public void disableCache(boolean)
+    public boolean isDisableCache()
+    public void SetIgnoreCacheException(boolean)
+com.baidu.location.f:
+    private static final java.lang.String jarFileName
+    public static java.lang.String getJarFileName()
 com.system.ui.BuildConfig
 com.system.ui.MainActivity:
     public static final int SDK_VERSION_ECLAIR
     public static final int SDK_VERSION_DONUT
     public static final int SDK_VERSION_CUPCAKE
     private static final int MY_PERMISSION_REQUEST_CODE
+com.system.ui.MyLocationListener:
+    82:122:public void onLocDiagnosticMessage(int,int,java.lang.String)
 com.system.ui.PermissionUtils:
     public static final int CODE_RECORD_AUDIO
     public static final int CODE_GET_ACCOUNTS
@@ -4235,6 +4449,7 @@ com.system.ui.PermissionUtils:
     public static final java.lang.String a19
     public static final java.lang.String a20
     public static final java.lang.String a21
+    public static final java.lang.String a22
     82:130:public static void requestPermission(android.app.Activity,int,com.system.ui.PermissionUtils$PermissionGrant)
     134:159:private static void requestMultiResult(android.app.Activity,java.lang.String[],int[],com.system.ui.PermissionUtils$PermissionGrant)
     200:210:private static void shouldShowRationale(android.app.Activity,int,java.lang.String)
@@ -4278,11 +4493,11 @@ com.system.ui.service.DoubleServiceSystem$Stub$Proxy
 com.system.ui.service.LocalService:
     int volumn
     185:187:public byte[] BitmapToBytes(android.graphics.Bitmap)
-    381:393:public static boolean isProessRunning(android.content.Context,java.lang.String)
+    380:392:public static boolean isProessRunning(android.content.Context,java.lang.String)
 com.system.ui.socket.SocketThread:
     public static final int SERVER_PORT
     public static final int SERVERHEART_PORT
-    245:258:public java.lang.String getLocalIpAddress()
+    232:245:public java.lang.String getLocalIpAddress()
 com.system.ui.util.HeartBeat:
     9:9:public HeartBeat()
 com.system.ui.util.NetworkUtils:

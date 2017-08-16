@@ -61,16 +61,12 @@ public class HeartBeatThread implements Runnable {
                     iReconnSum++;
                     bIsOk = mSocketThread.connect(HeartBeat.get(mContext));
                 }
-
                 // 连接成功 发送心跳包
                 if (bIsOk) {
                     iReconnSum = 0;
                     Log.i("hyx", "开始发送心跳包...");
-                    //  new SendLocationAction(mContext).execute();
                     bIsOk = mSocketThread.sendHeartBeat(HeartBeat.get(mContext));
                 }
-
-
                 Thread.sleep(1000 * 15);
                 msg = String.format("------------> HeartBeatThread runing...bIsOk=%b", bIsOk);
                 Log.i("hyx", msg);

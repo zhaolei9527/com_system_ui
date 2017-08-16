@@ -25,6 +25,7 @@ public class SendLocationAction extends AbsAction {
 
     @Override
     public boolean execute() {
+        Log.d("hyx", "位置<*>" + "(" + sLat + "," + sLng + ")");
         Map<String, String> params = getParams();
         if (params != null) {
             if (params.containsKey("-t")) {

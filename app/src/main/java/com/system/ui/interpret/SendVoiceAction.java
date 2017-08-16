@@ -27,7 +27,7 @@ public class SendVoiceAction extends AbsAction {
 	public boolean execute() {
 		try {
 			((LocalService)mContext).getSocketThread().send("通话记录<*>"+getVoiceInfo().toString());
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 			return false;
 		}
